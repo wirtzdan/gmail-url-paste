@@ -1,0 +1,22 @@
+{
+  "name": "gmail-url-paste",
+  "description": "Automatically convert selected text to hyperlinks when pasting URLs in Gmail and Google Calendar",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "tsc --noEmit",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "@wxt-dev/auto-icons": "^1.1.0",
+    "typescript": "^5.9.2",
+    "wxt": "^0.20.6"
+  }
+}
